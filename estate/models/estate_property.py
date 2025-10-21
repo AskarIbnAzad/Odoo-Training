@@ -34,7 +34,7 @@ class EstateProperty(models.Model):
             ('sold ', 'Sold'),
             ('cancelled ', 'Cancelled')
         ],
-        string='Garden Orientation',
+        string='State',
         default='new',
         copy=False,
         required=True
