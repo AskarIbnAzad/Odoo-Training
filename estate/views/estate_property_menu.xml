@@ -5,6 +5,12 @@
                 <menuitem id="estate_property_action_menu" action="estate_property_action">
                 </menuitem>
             </menuitem>
+             <menuitem id="estate_property_settings" name="Settings">
+                <menuitem id="estate_property_settings_type" action="estate_property_type_action">
+                </menuitem>
+                 <menuitem id="estate_property_settings_tags" action="estate_property_tags_action">
+                 </menuitem>
+            </menuitem>
         </menuitem>
     </data>
 </odoo>
